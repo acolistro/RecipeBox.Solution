@@ -13,6 +13,6 @@ namespace RecipeBox.Models
         public string Description { get; set; }
         public virtual ApplicationUser User { get; set; }
 
-        public ICollection<TagRecipe> Categories { get;}
+        public ICollection<TagRecipe> Tags { get;}
     }
 }
